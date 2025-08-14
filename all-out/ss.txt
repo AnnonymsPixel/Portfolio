@@ -1,0 +1,220 @@
+<section id="projects" class="s1">
+            <div class="main-container">
+                <h3 style="text-align: center;">Some of my Projects</h3>
+
+                <div class="post-wrapper">
+                    <div>
+                        <div class="post">
+                            <img class="thumbnail" src="Thumbnails/Bruce-bot.jpeg">
+                            <div class="post-preview">
+                                <h6 class="post-title">Ngiht Wing</h6>
+                                <p class="post-intro">A Fun Discord Bot which has many commands
+                                    It provides you with some Common commands,
+                                    Some Fun and most important MUSIC !! 😄</p>
+                                <div class="post-links">
+                                    <a class="links" target="_blank" href="https://discord.gg/u8UPeykExp">Try It</a>
+                                    <a class="links" target="_blank" href="">Source Code</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="post">
+                            <img class="fido" src="Thumbnails/Fido-AI.jpeg">
+                            <div class="post-preview">
+                                <h6 class="post-title">Fido AI</h6>
+                                <p class="post-intro">Fido AI is a smart virtual assistant that can answer real-time questions,
+                                     provide forecasts, and chat casually, 
+                                     making it both helpful and engaging for everyday use.</p>
+                                <div class="post-links">
+                                    <a class="links" target="_blank" href="">Try It</a>
+                                    <a class="links" target="_blank" href="https://github.com/AnnonymsPixel/Test/upload">Source Code</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="post">
+                            <img class="thumbnail" src="Thumbnails/machine.png">
+                            <div class="post-preview">
+                                <h6 class="post-title">Arcade Machine</h6>
+                                <p class="post-intro">Arcade Machine is a simple yet addictive ping pong game that tests
+                                     your reflexes and keeps you hooked with fast-paced, competitive gameplay.</p>
+                                <div class="post-links">
+                                    <a class="links" target="_blank" href="https://annonymspixel.github.io/Ping-Pong/">Try It</a>
+                                    <a class="links" target="_blank" href="https://github.com/AnnonymsPixel/Ping-Pong">Source Code</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="post">
+                            <svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg" class="svg">
+                                <!-- Background -->
+                                <rect width="800" height="600" fill="#1a1a2e"/>
+                                
+                                <!-- Title -->
+                                <text x="400" y="40" text-anchor="middle" fill="#00d4ff" font-size="28" font-weight="bold" font-family="Arial, sans-serif">
+                                    Gesture Controller for Subway Surfers
+                                </text>
+                                
+                                <!-- Grid layout for gestures -->
+                                
+                                <!-- Jump Gesture -->
+                                <g transform="translate(150, 100)">
+                                    <rect x="0" y="0" width="140" height="120" fill="#2d2d54" stroke="#00d4ff" stroke-width="2" rx="10"/>
+                                    <text x="70" y="25" text-anchor="middle" fill="#00d4ff" font-size="16" font-weight="bold">JUMP</text>
+                                    <!-- pointing up -->
+                                    <path d="M70 40 L60 60 L50 75 L60 85 L70 75 L80 85 L90 75 L80 60 Z" fill="#ffb74d" stroke="#ff8f00" stroke-width="2"/>
+                                    <!-- Arrow up -->
+                                    <path d="M70 90 L65 100 L75 100 Z" fill="#00ff88"/>
+                                    <text x="70" y="115" text-anchor="middle" fill="#ffffff" font-size="12">Move Hand UP</text>
+                                </g>
+                                
+                                <!-- Duck/Slide Gesture -->
+                                <g transform="translate(320, 100)">
+                                    <rect x="0" y="0" width="140" height="120" fill="#2d2d54" stroke="#00d4ff" stroke-width="2" rx="10"/>
+                                    <text x="70" y="25" text-anchor="middle" fill="#00d4ff" font-size="16" font-weight="bold">DUCK</text>
+                                    <!-- pointing down -->
+                                    <path d="M70 85 L60 65 L50 50 L60 40 L70 50 L80 40 L90 50 L80 65 Z" fill="#ffb74d" stroke="#ff8f00" stroke-width="2"/>
+                                    <!-- Arrow down -->
+                                    <path d="M70 35 L65 25 L75 25 Z" fill="#ff4444"/>
+                                    <text x="70" y="115" text-anchor="middle" fill="#ffffff" font-size="12">Move Hand DOWN</text>
+                                </g>
+                                
+                                <!-- Left Swipe -->
+                                <g transform="translate(490, 100)">
+                                    <rect x="0" y="0" width="140" height="120" fill="#2d2d54" stroke="#00d4ff" stroke-width="2" rx="10"/>
+                                    <text x="70" y="25" text-anchor="middle" fill="#00d4ff" font-size="16" font-weight="bold">SWIPE LEFT</text>
+                                    <!-- Body -->
+                                    <ellipse cx="80" cy="60" rx="15" ry="20" fill="#ffb74d" stroke="#ff8f00" stroke-width="2"/>
+                                    <!-- Arrow left -->
+                                    <path d="M35 60 L45 55 L45 65 Z" fill="#ff4444"/>
+                                    <line x1="45" y1="60" x2="60" y2="60" stroke="#ff4444" stroke-width="3"/>
+                                    <text x="70" y="115" text-anchor="middle" fill="#ffffff" font-size="12">Move Hand LEFT</text>
+                                </g>
+                                
+                                <!-- Right Swipe -->
+                                <g transform="translate(150, 250)">
+                                    <rect x="0" y="0" width="140" height="120" fill="#2d2d54" stroke="#00d4ff" stroke-width="2" rx="10"/>
+                                    <text x="70" y="25" text-anchor="middle" fill="#00d4ff" font-size="16" font-weight="bold">SWIPE RIGHT</text>
+                                    <!-- Hand -->
+                                    <ellipse cx="60" cy="60" rx="15" ry="20" fill="#ffb74d" stroke="#ff8f00" stroke-width="2"/>
+                                    <!-- Arrow right -->
+                                    <path d="M105 60 L95 55 L95 65 Z" fill="#00ff88"/>
+                                    <line x1="80" y1="60" x2="95" y2="60" stroke="#00ff88" stroke-width="3"/>
+                                    <text x="70" y="115" text-anchor="middle" fill="#ffffff" font-size="12">Move Hand RIGHT</text>
+                                </g>
+                                
+                                <!-- Stop/Pause Gesture -->
+                                <g transform="translate(320, 250)">
+                                    <rect x="0" y="0" width="140" height="120" fill="#2d2d54" stroke="#00d4ff" stroke-width="2" rx="10"/>
+                                    <text x="70" y="25" text-anchor="middle" fill="#00d4ff" font-size="16" font-weight="bold">PAUSE</text>
+                                    <!-- Open palm -->
+                                    <circle cx="70" cy="55" r="20" fill="#ffb74d" stroke="#ff8f00" stroke-width="2"/>
+                                    <!-- Fingers -->
+                                    <rect x="60" y="35" width="4" height="20" fill="#ffb74d" rx="2"/>
+                                    <rect x="66" y="30" width="4" height="25" fill="#ffb74d" rx="2"/>
+                                    <rect x="72" y="30" width="4" height="25" fill="#ffb74d" rx="2"/>
+                                    <rect x="78" y="35" width="4" height="20" fill="#ffb74d" rx="2"/>
+                                    <text x="70" y="115" text-anchor="middle" fill="#ffffff" font-size="12">Open Palm</text>
+                                </g>
+                                
+                                <!-- Setup Instructions -->
+                                <g transform="translate(490, 250)">
+                                    <rect x="0" y="0" width="140" height="120" fill="#2d2d54" stroke="#ff9500" stroke-width="2" rx="10"/>
+                                    <text x="70" y="25" text-anchor="middle" fill="#ff9500" font-size="16" font-weight="bold">SETUP</text>
+                                    <text x="10" y="45" fill="#ffffff" font-size="10">1. Install requirements:</text>
+                                    <text x="10" y="58" fill="#00d4ff" font-size="9">pip install opencv-python</text>
+                                    <text x="10" y="70" fill="#00d4ff" font-size="9">pip install mediapipe</text>
+                                    <text x="10" y="82" fill="#00d4ff" font-size="9">pip install pyautogui</text>
+                                    <text x="10" y="100" fill="#ffffff" font-size="10">2. Run Python script</text>
+                                    <text x="10" y="112" fill="#ffffff" font-size="10">3. Start Subway Surfers</text>
+                                </g>
+                                
+                                <!-- Instructions -->
+                                <rect x="50" y="400" width="700" height="150" fill="#16213e" stroke="#00d4ff" stroke-width="2" rx="15"/>
+                                <text x="400" y="430" text-anchor="middle" fill="#00d4ff" font-size="20" font-weight="bold">How It Works</text>
+                                
+                                <text x="70" y="455" fill="#ffffff" font-size="14">• Position your hand in front of the camera (12-24 inches away)</text>
+                                <text x="70" y="475" fill="#ffffff" font-size="14">• Make clear, deliberate movements to trigger gestures</text>
+                                <text x="70" y="495" fill="#ffffff" font-size="14">• The system detects hand landmarks and converts movements to keyboard inputs</text>
+                                <text x="70" y="515" fill="#ffffff" font-size="14">• Gestures are smoothed to prevent accidental triggers</text>
+                                <text x="70" y="535" fill="#ffffff" font-size="14">• Press 'q' in the camera window to quit the controller</text>
+                                
+                                <!-- Decorative elements -->
+                                <circle cx="80" cy="80" r="3" fill="#00ff88" opacity="0.6"/>
+                                <circle cx="720" cy="120" r="4" fill="#ff4444" opacity="0.6"/>
+                                <circle cx="650" cy="380" r="2" fill="#00d4ff" opacity="0.8"/>
+                                <circle cx="150" cy="380" r="3" fill="#ff9500" opacity="0.7"/>
+                                
+                                <!-- Game controller icon -->
+                                <g transform="translate(680, 450)">
+                                    <rect x="0" y="0" width="60" height="35" fill="#333" stroke="#666" stroke-width="2" rx="8"/>
+                                    <circle cx="15" cy="18" r="4" fill="#444"/>
+                                    <circle cx="45" cy="18" r="4" fill="#444"/>
+                                    <rect x="35" y="8" width="4" height="8" fill="#666" rx="2"/>
+                                    <rect x="32" y="11" width="10" height="4" fill="#666" rx="2"/>
+                                </g>
+                            </svg>
+                            <div class="post-preview">
+                                <h6 class="post-title">Gesture Controller for Subway Surfers</h6>
+                                <p class="post-intro">Gesture Controller for Subway Surfers lets you play the game using hand movements, 
+                                    turning your gestures into in-game actions for a fun and immersive experience.</p>
+                                <div class="post-links">
+                                    <a class="links" target="_blank" href="">Try It</a>
+                                    <a class="links" target="_blank" href="https://github.com/AnnonymsPixel/Ping-Pong">Source Code</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="post">
+                            <img class="thumbnail" src="Thumbnails/DripNest.png">
+                            <div class="post-preview">
+                                <h6 class="post-title">DripNest</h6>
+                                <p class="post-intro">DripNest is an upcoming e-commerce website focused on selling top brands,
+                                     currently under development and built to deliver a sleek, modern shopping experience.</p>
+                                <div class="post-links">
+                                    <a class="links" target="_blank" href="">Try It</a>
+                                    <a class="links" target="_blank" href="">Source Code</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="post">
+                            <img class="thumbnail" src="Thumbnails/StickMan.png">
+                            <div class="post-preview">
+                                <h6 class="post-title">Stick Man</h6>
+                                <p class="post-intro">DripNest is an upcoming e-commerce website focused on selling top brands,
+                                     currently under development and built to deliver a sleek, modern shopping experience.</p>
+                                <div class="post-links">
+                                    <a class="links" target="_blank" href="https://annonymspixel.github.io/Stickman/">Try It</a>
+                                    <a class="links" target="_blank" href="https://github.com/AnnonymsPixel/Stickman">Source Code</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="github" class="s2">
+            <div class="main-container">
+                <a target="_blank" href="https://github.com/AnnonymsPixel">
+                    <h3 style="text-align: center;">My Github</h3>
+                </a>
+
+                <div class="github-wrapper">
+                    <img id="github-stats" class="github-card" src="https://github.com/AnnonymsPixel">
+                    <img id="github-streaks" class="github-card" src="">
+                </div>
+            </div>
+        </section>
