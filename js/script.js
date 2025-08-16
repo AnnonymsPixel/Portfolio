@@ -66,7 +66,7 @@ document.addEventListener("DOMContentLoaded", function() {
     let deleteSpeed = 280;       // buttery deletion
     let pauseEnd = 2000;         // elegant pause to read
     let pauseStart = 400;        // smooth transition pause
-    let baseTitle = " ";        // prevents URL from showing
+    let baseTitle = "• ";        // prevents URL from showing
     
     let messageIndex = 0;
     let charIndex = 0;
