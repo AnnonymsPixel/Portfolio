@@ -124,42 +124,7 @@ document.addEventListener("DOMContentLoaded", function() {
         
         animationId = requestAnimationFrame(ultraSmoothType);
     }
-    
-    // Alternative ultra-smooth approach using optimized intervals
-    function premiumSmooth() {
-        let currentMessage = messages[messageIndex];
-        
-        if (isDeleting) {
-            charIndex--;
-            document.title = currentMessage.substring(0, charIndex);
-            
-            if (charIndex === 0) {
-                isDeleting = false;
-                messageIndex = (messageIndex + 1) % messages.length;
-                setTimeout(premiumSmooth, pauseStart);
-                return;
-            }
-            
-            setTimeout(premiumSmooth, deleteSpeed + Math.sin(Date.now() * 0.01) * 5);
-        } else {
-            charIndex++;
-            document.title = currentMessage.substring(0, charIndex);
-            
-            if (charIndex === currentMessage.length) {
-                isDeleting = true;
-                setTimeout(premiumSmooth, pauseEnd);
-                return;
-            }
-            
-            // Ultra-smooth with micro-variations for organic feel
-            let smoothDelay = typeSpeed + Math.sin(charIndex * 0.5) * 8;
-            setTimeout(premiumSmooth, smoothDelay);
-        }
-    }
-    
-    // Start the premium smooth animation
-    setTimeout(premiumSmooth, 500);
-});
+
 // Loading Screen Script
         function simulateLoading() {
             const progressFill = document.getElementById('progressFill');
@@ -191,7 +156,6 @@ document.addEventListener("DOMContentLoaded", function() {
         window.addEventListener('load', simulateLoading);
 
 //Project Section
-
 function showNotification(message) {
     if (Notification.permission === "granted") {
         new Notification(message);
@@ -214,3 +178,4 @@ function checkLink(link) {
     }
     return true; // allow navigation
 }
+
