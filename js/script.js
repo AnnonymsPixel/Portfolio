@@ -55,7 +55,7 @@ function setTheme(mode) {
     localStorage.setItem("theme", mode)
 }
 
-//typewriter
+//type-writter
 document.addEventListener("DOMContentLoaded", function() {
     let messages = [
         "Shlok"
@@ -64,16 +64,18 @@ document.addEventListener("DOMContentLoaded", function() {
     // Ultra-smooth guns.lol style timing
     let typeSpeed = 280;         // silky smooth typing
     let deleteSpeed = 280;       // buttery deletion
-    let pauseEnd = 2000;        // elegant pause to read
-    let pauseStart = 400;       // smooth transition pause
+    let pauseEnd = 2000;         // elegant pause to read
+    let pauseStart = 400;        // smooth transition pause
+    let baseTitle = " ";        // prevents URL from showing
     
     let messageIndex = 0;
     let charIndex = 0;
     let isDeleting = false;
     let animationId;
     
-    document.title = " ";
-
+    // Initialize with base title to prevent URL showing
+    document.title = baseTitle;
+    
     // High-precision timing using requestAnimationFrame for 60fps smoothness
     let lastTime = 0;
     let accumulator = 0;
@@ -94,7 +96,8 @@ document.addEventListener("DOMContentLoaded", function() {
             
             if (isDeleting) {
                 charIndex--;
-                document.title = currentMessage.substring(0, charIndex);
+                // Always keep base title to prevent URL showing
+                document.title = baseTitle + currentMessage.substring(0, charIndex);
                 
                 if (charIndex === 0) {
                     isDeleting = false;
@@ -108,7 +111,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 }
             } else {
                 charIndex++;
-                document.title = currentMessage.substring(0, charIndex);
+                document.title = baseTitle + currentMessage.substring(0, charIndex);
                 
                 if (charIndex === currentMessage.length) {
                     isDeleting = true;
@@ -124,7 +127,17 @@ document.addEventListener("DOMContentLoaded", function() {
         
         animationId = requestAnimationFrame(ultraSmoothType);
     }
-
+    
+    // Start the animation immediately
+    animationId = requestAnimationFrame(ultraSmoothType);
+    
+    // Cleanup on page unload
+    window.addEventListener('beforeunload', () => {
+        if (animationId) {
+            cancelAnimationFrame(animationId);
+        }
+    });
+});
 // Loading Screen Script
         function simulateLoading() {
             const progressFill = document.getElementById('progressFill');
@@ -178,4 +191,5 @@ function checkLink(link) {
     }
     return true; // allow navigation
 }
+
 
