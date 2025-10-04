@@ -315,7 +315,23 @@
 <script src="js/script.js"></script>
 <script src="js/mail.js"></script>
 <script src="js/buttons.js"></script>
+
+    <script src="https://cdn.socket.io/4.5.4/socket.io.min.js"></script>
+<script>
+    const socket = io('http://localhost:3000');
+    
+    socket.on('connect', () => {
+        console.log('Connected to visitor tracking');
+    });
+    
+    socket.on('userCount', (count) => {
+        console.log('Visitors online:', count);
+    });
+    
+</script>
+    
 </body>
 
 </html>
+
 
