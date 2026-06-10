@@ -56,18 +56,18 @@ body * {
 }
 
 .progress-bar-track {
-  width: 100%;        /* or whatever max width you want */
-  height: 8px;
-  background-color: rgba(128, 128, 128, 0.2);
+  width: 200px;
+  height: 2px;
   border-radius: 999px;
+  background-color: rgba(255, 255, 255, 0.15);
   overflow: hidden;
+  margin: 0 auto 16px;
 }
 
-.progress-bar-track {
-  height: 2px;
-  border-radius: 90%;
-  background-color: rgba(128, 128, 128, 0.2);
-  overflow: hidden;
+.progress-bar-fill {
+  height: 100%;
+  border-radius: 999px;
+  transition: width 0.3s ease;
 }
 
 .loading-text {

@@ -44,17 +44,17 @@ export default function LoadingScreen({ theme, onComplete }) {
           />
         </div>
 
-        <div className="progress-bar-track">
-    <div
-      className="progress-bar-fill"
-      style={{
-        width: `${progress}%`,
-        height: "10px",
-        backgroundColor: theme.vars.buttonColor,
-        transition: "width 0.3s ease",
-        borderRadius: "15px",
+    <div className="progress-bar-track">
+      <div
+        className="progress-bar-fill"
+        style={{
+          width: `${progress}%`,
+          height: "100%",
+          backgroundColor: theme.vars.buttonColor,
+          transition: "width 0.3s ease",
+          borderRadius: "999px",
     }}
-  />
+       />
 </div>
 
         <p className="loading-text">Loading...</p>
