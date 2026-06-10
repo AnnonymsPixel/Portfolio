@@ -236,7 +236,7 @@ export default function ProjectsSection({ theme, onPrivacyNotice, sectionStyle, 
                               background: acc.base,
                             }}
                           >
-                            ↗ Try it
+                             Try it
                           </button>
                         )}
                         {hasSource && (
